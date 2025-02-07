@@ -1,12 +1,19 @@
 # Student-Management-System-nyilvatorti-rendszer
-
+(A rendszer egy barátommal szerettük volna előállitani elüször angolnyelvre majd magyar nyelvre.)
+(A program tartalmazhat angolt, de igyekeztünk ezt kiküszöbölni)
 ==== Diák nyílvántartási rendszer ====
 
-A projekten van még mit feljeszteni, ez csak egy fél kész de futtatható. H2 adatbázissal. 
+A projekten van még mit feljeszteni, ez csak egy szinte fél kész de futtatható. H2 adatbázissal. Sprngbootot tartalmaz mivel egyszerősitett
+illetve egy felhasználó barátabbat projectet szerettünk volna létrehozni. 
 Diákok nyilvántartása (Név,email,születési idő,ID,Index)
 
 Jellemzőkek a projektre (mini részlet)
 
+# Ezeket az  adabázisokat tartalmazza:
+-schema.sql
+-data.sql
+
+# Lehetőségeg:
 - Mentés
 - Összes megjelenítése
 - Keresés azonosító alapján
@@ -22,6 +29,8 @@ Jellemzők:
 - Spring
 - Spring  inicializáló
 - H2 Beágyazott adatbázis
+(A spring lehetőséget jobbnak találtuk a program elkészitéséhez  mivel, rendelkezik beépitett adatbzis tűmogatással,
+kicsit egyszerűbb, könnyebb és elérhetőbb volt a számunkra, szerettünk volna egy könyebb felhasználóbarátabb programot )
 
 
 GET METHOD PÉLDÁK és leírások
