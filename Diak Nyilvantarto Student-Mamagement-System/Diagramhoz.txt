@@ -1,0 +1,61 @@
++-------------------+
+|       Config      |
++-------------------+
+
++-------------------+
+| ProjectController |
+| - listProjects()  |
+| - addProject()    |
+| - deleteProject() |
++-------------------+
+
++-------------------+
+| StudentController |
+| - listStudents()  |
+| - addStudent()    |
+| - deleteStudent() |
+| - filterByName()  |
+| - filterByEmail() |
+| - filterByDOB()   |
++-------------------+
+
++-------------------+
+|     Exception     |
+|-------------------|
+| EmailInUseException      |
+| EmptyInputException       |
+| ErrorDetails              |
+| GeneralExceptionHandler   |
+| ProjectNotFoundException  |
+| StudentNotFoundException  |
++-------------------+
+
++-------------------+
+|      Model        |
+|-------------------|
+| Project           |
+| - id              |
+| - name            |
+| - description     |
+|-------------------|
+| Student           |
+| - id              |
+| - name            |
+| - dob             |
+| - email           |
+| - indexNumber     |
++-------------------+
+
++-------------------+
+|     Repository    |
+|-------------------|
+| ProjectRepo       |
+| StudentRepo       |
++-------------------+
+
++-------------------+
+|      Service      |
+|-------------------|
+| ProjectService    |
+| StudentService    |
++-------------------+
